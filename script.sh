@@ -17,3 +17,11 @@ else
         nala upgrade
         clear
 fi
+
+
+if [ $1="rm" ]
+then
+  echo "Removing Nala..."
+  apt remove nala
+  clear
+fi
