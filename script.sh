@@ -6,6 +6,8 @@ if $check=false ; then
         nala autopurge
         nala autoremove
         nala clean
+        rm -rf ~/.cache/thumbnails/*
+        rm -rf /var/log/
         nala update
         nala upgrade
         clear
@@ -13,6 +15,8 @@ else
         nala autopurge
         nala autoremove
         nala clean
+        rm -rf ~/.cache/thumbnails/*
+        rm -rf /var/log/
         nala update
         nala upgrade
         clear
